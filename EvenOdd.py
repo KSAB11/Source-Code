@@ -1,0 +1,14 @@
+# Even or Odd number checker
+
+def main():
+
+    number = int(input("Enter number: "))
+    if number % 2 == 0:
+        print(f"{number} is Even!")
+    else:
+        print(f"{number} is Odd!")
+
+main()
+
+
+
