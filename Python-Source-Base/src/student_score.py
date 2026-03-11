@@ -14,7 +14,7 @@ def students_score():
     for students, scores in students.items():
         print(f"{students}: {scores}")
 
-def main():
+
     students_score()
     print("\nStudent's scores from each categories")
 
