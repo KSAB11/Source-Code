@@ -1,4 +1,4 @@
-# ![Python](https://img.shields.io) ![Java](https://img.shields.io)  
+# <img src="https://cdn.jsdelivr.net" width="40" height="40" /> <img src="https://cdn.jsdelivr.net" width="40" height="40" />
           
 
 
