@@ -10,8 +10,30 @@ public class Array {
     [Row] [Column]
 
     [Table] [Row] [Column]
-     */
 
+    Temporary bubble sort example
+        class Main {
+    public static void main(String[] args) {
+        
+        int [] arr ={12, 7, 21, 43, 5, 3};
+        
+        for (int i = 0; i < arr.length -1; i++) {
+            for (int j = 0; j < arr.length -1 - i; j++) {
+                
+                if (arr[j] > arr[j + 1]) {
+                    
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+                System.out.println(arr[i] + " ");
+                
+            }
+        }
+    }
+}
+    
+*/
     public static void setArray1D () {
 
         // 1d Array
