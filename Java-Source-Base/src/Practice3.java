@@ -3,6 +3,8 @@ public class Practice3 {
     // Bubble sort
     // Search algorithm that compare values to organize in order way
     // Repeatedly compare elements until its on its right position/order
+    // Good for small dataset
+    //Bad for large dataset
 
     public static void bubbleSort() {
         int[] arr = {3, 1, 2, 5, 4, 7, 10, 8, 9, 6}; // Array
@@ -20,7 +22,7 @@ public class Practice3 {
             for (int j = 0; j < n - i - 1; j++) { // Comparison of each elements
 
                 // If element is greater swap them
-                if (arr[j] > arr[j + 1]) {
+                if (arr[j] > arr[j + 1]) { // > for ascending order, < for descending order
                     // Swapping elements
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
